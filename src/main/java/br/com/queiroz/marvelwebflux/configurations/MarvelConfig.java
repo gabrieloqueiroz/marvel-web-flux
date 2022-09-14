@@ -17,7 +17,7 @@ public class MarvelConfig {
     @Value("${marvel.client.ts}")
     private String ts;
 
-    @Value("${marvel.client.apiKey}")
+    @Value("${marvel.client.apikey}")
     private String apiKey;
 
     @Value("${marvel.client.hash}")
